@@ -96,39 +96,3 @@ function searchCity(city) {
   let apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=${units}`;
   axios.get(apiUrl).then(showTemperature);
 }
-
-//function getCurrentLocation(event) {
-//event.preventDefault();
-//navigator.geolocation.getCurrentPosition(retrievePosition);
-//}
-//function retrievePosition(position) {
-//let apiKey = "86efc84703d8920edad71687828e1265";
-//let lat = position.coords.latitude;
-//let lon = position.coords.longitude;
-//let apiUrl = `https://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${lon}&units=imperial&appid=${apiKey}`;
-//axios.get(apiUrl).then(showWeather);
-//}
-
-//function retrievePosition(position) {
-//let apiKey = "86efc84703d8920edad71687828e1265";
-//let lat = position.coords.latitude;
-//let lon = position.coords.longitude;
-//let apiUrl = `https://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${lon}&units=imperial&appid=${apiKey}`;
-//axios.get(apiUrl).then(showWeather);
-//}
-
-//navigator.geolocation.getCurrentPosition(retrievePosition);
-
-//function showWeather(response) {
-//let h2 = document.querySelector("h2");
-//let temperature = Math.round(response.data.main.temp);
-//h2.innerHTML = `${temperature}`;
-//}
-
-//function getTemperatureNow(response) {
-//let currentTemp = document.querySelector("#temperature");
-//currentTemp.innerHTML = Math.round(response.data.main.temp);
-
-//let currentCity = document.querySelector("#current-city");
-//currentCity.innerHTML = response.data.name;
-//}
