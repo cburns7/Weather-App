@@ -1,0 +1,125 @@
+form {
+  padding-top: 30px;
+  padding-bottom: 20px;
+  padding-left: 5px;
+  font-family: Avenir;
+}
+
+h1,
+h2 {
+  font-family: Avenir;
+}
+
+h1 {
+  color: #283c63;
+  font-size: 48px;
+}
+
+h2 {
+  font-size: 40px;
+  position: relative;
+  left: 225px;
+  bottom: 59px;
+  color: #f85f73;
+}
+
+a {
+  text-decoration: none;
+  color: #f85f73;
+}
+
+a:hover {
+  color: #283c63;
+}
+
+button {
+  border-radius: 3px;
+  font-family: Avenir;
+  position: relative;
+  right: -255px;
+  bottom: 50px;
+  border: 1px solid;
+  border-color: gray;
+  padding-right: 5px;
+  padding-left: 5px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+}
+
+button:hover {
+  background-color: #e5e5e5;
+  border-color: black;
+}
+
+.container {
+  font-family: Avenir;
+  border-radius: 10px;
+  max-width: 800px;
+  border: 2px solid #283c63;
+  position: relative;
+  top: 30px;
+  width: 100%;
+  max-height: 535px;
+}
+
+.date-time {
+  list-style-type: none;
+  font-size: 22px;
+  position: relative;
+  left: 550px;
+  bottom: 445px;
+}
+
+.degrees {
+  font-size: 36px;
+  color: #f85f73;
+  position: relative;
+  bottom: 170px;
+  left: 275px;
+  font-weight: bold;
+}
+
+.main-weather-icon {
+  color: #928a97;
+  font-size: 100px;
+  position: relative;
+  left: 150px;
+  bottom: 55px;
+}
+
+.weather-icons {
+  color: #fbe8d3;
+  font-size: 70px;
+  position: relative;
+  left: 20px;
+  bottom: 200px;
+}
+
+.temperature {
+  font-size: 33px;
+  color: #f85f73;
+  position: relative;
+  bottom: 150px;
+}
+
+.forecast {
+  font-size: 33px;
+  color: #928a97;
+  position: relative;
+  bottom: 170px;
+}
+
+.weekdays {
+  font-size: 33px;
+  color: #283c63;
+  position: relative;
+  bottom: 200px;
+  left: 15px;
+}
+
+.high-low {
+  color: #f85f73;
+  position: relative;
+  bottom: 200px;
+  left: 30px;
+}

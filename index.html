@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl"
+      crossorigin="anonymous"
+    />
+
+    <script
+      src="https://kit.fontawesome.com/da4bc65e39.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <link rel="stylesheet" href="css/style.css" />
+
+    <script type="text/javascript" src="weather-app/script.js"></script>
+
+    <title>Weather App</title>
+  </head>
+  <body>
+    <div class="container">
+      <form id="search-form">
+        <input
+          type="text"
+          placeholder="Enter a city..."
+          autocomplete="off"
+          autofocus="on"
+          id="search-text-input"
+        />
+        <input type="submit" value="Search" />
+      </form>
+
+      <button id="current-location">Current</button>
+
+      <h1>New York</h1>
+
+      <h2>66</h2>
+      <span class="degrees">
+        <a href="#" id="fahrenheit-link">°F</a> |
+        <a href="#" id="celcius-link">°C</a>
+      </span>
+      <i class="far fa-snowflake main-weather-icon"></i>
+
+      <p class="temperature">H:34° L:16°</p>
+
+      <p class="forecast">Snow Showers</p>
+
+      <ul>
+        <li class="date-time">Sunday Feb 22</li>
+      </ul>
+
+      <div class="row weekdays">
+        <div class="col">Monday</div>
+        <div class="col">Tuesday</div>
+        <div class="col">Wednesday</div>
+        <div class="col">Thursday</div>
+        <div class="col">Friday</div>
+      </div>
+      <div class="row weather-icons">
+        <div class="col">
+          <i class="fas fa-sun"></i>
+        </div>
+        <div class="col">
+          <i class="fas fa-sun"></i>
+        </div>
+        <div class="col">
+          <i class="fas fa-cloud-sun"></i>
+        </div>
+        <div class="col">
+          <i class="far fa-snowflake"></i>
+        </div>
+        <div class="col">
+          <i class="fas fa-cloud-sun"></i>
+        </div>
+      </div>
+      <div class="row high-low">
+        <div class="col">38H/20L</div>
+        <div class="col">35H/18L</div>
+        <div class="col">43H/33L</div>
+        <div class="col">18H/4L</div>
+        <div class="col">40H/28L</div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
