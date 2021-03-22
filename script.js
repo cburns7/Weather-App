@@ -96,8 +96,6 @@ function searchCity(city) {
   let apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=${units}`;
   axios.get(apiUrl).then(showTemperature);
 }
-//let button = document.querySelector("#current-location");
-//button.addEventListener("click", getCurrentLocation);
 
 //function getCurrentLocation(event) {
 //event.preventDefault();
@@ -110,9 +108,6 @@ function searchCity(city) {
 //let apiUrl = `https://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${lon}&units=imperial&appid=${apiKey}`;
 //axios.get(apiUrl).then(showWeather);
 //}
-
-//let button = document.querySelector("#current-location");
-//button.addEventListener("click", retrievePosition);
 
 //function retrievePosition(position) {
 //let apiKey = "86efc84703d8920edad71687828e1265";
